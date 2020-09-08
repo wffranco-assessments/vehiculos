@@ -1,3 +1,19 @@
+# Fast commands
+
+```
+#make model with migration
+php artisan make:model <name> -m
+
+#make resource controler linked to a model
+php artisan make:controller <name>Controller --resource --model=<name>
+
+#make api controller
+php artisan make:controller API/PhotoController --api
+
+#make blade component
+php artisan make:component <name>
+```
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
